@@ -20,12 +20,14 @@ http://localhost:8080/helloworld
 
 http://localhost:8080/hello/put-a-name-here
 
-3) to receive a json data with a test message
+3) to receive a json data with a sample message
 
 http://localhost:8080/hellojson
 
 - to deploy it in gae
 
-1) create your new project in gae console
-2) set your project id and version in appengine xml (see WEB-INF)
+1) create a new project in gae console
+
+2) set that project id and version in appengine xml (see WEB-INF)
+
 3) mvn appengine:update
