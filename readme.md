@@ -20,13 +20,13 @@ http://localhost:8080/api/helloworld
 
 2) say hello to...
 
-http://localhost:8080/api/hello/<put-a-name-here>
+http://localhost:8080/api/hello/put-a-name-here
 
 3) to receive a json data with a sample message from a get request
 
-http://localhost:8080/api/hellojson/get/<put-a-name-here>
+http://localhost:8080/api/hellojson/get/put-a-name-here
 
-4) to receive a json data with a sample message from a post request (need to post a json with format { message : <put-a-name-here> })
+4) to receive a json data with a sample message from a post request (need to post a json with format { "message" : "put-a-name-here" })
 
 http://localhost:8080/api/hellojson/post
 
