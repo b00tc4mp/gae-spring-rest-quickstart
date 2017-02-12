@@ -1,7 +1,7 @@
-_quickstart_ for whom wish to run a spring rest api service in gae (google appengine in google cloud platform)
+**quickstart** for whom wish to run a spring rest api service in gae (google appengine in google cloud platform)
 
 
-- to _run_ it locally, two ways
+- **run** it, two ways
 
 1) no gae
 
@@ -12,7 +12,7 @@ mvn jetty:run
 mvn appengine:devserver
 
 
-- to _test_ it locally
+- **test** it
 
 1) simple hello world
 
@@ -22,16 +22,16 @@ http://localhost:8080/api/helloworld
 
 http://localhost:8080/api/hello/put-a-name-here
 
-3) to receive a json data with a sample message from a get request
+3) receive a json data with a sample message from a get request
 
 http://localhost:8080/api/hellojson/get/put-a-name-here
 
-4) to receive a json data with a sample message from a post request (need to post a json with format { "message" : "put-a-name-here" })
+4) receive a json data with a sample message from a post request (need to post a json with format { "message" : "put-a-name-here" })
 
 http://localhost:8080/api/hellojson/post
 
 
-- to _deploy_ it in gae
+- **deploy** it in gae
 
 1) create a new project in gae console
 
