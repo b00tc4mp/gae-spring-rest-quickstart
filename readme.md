@@ -1,7 +1,9 @@
+# GAE-Spring-REST-quickstart
+
 **quickstart** for whom wish to run a spring rest api service in gae (google appengine in google cloud platform)
 
 
-- **run** it, two ways
+## **run** it, two ways
 
 1) no gae
 
@@ -12,7 +14,7 @@ mvn jetty:run
 mvn appengine:devserver
 
 
-- **test** it
+## **test** it
 
 1) simple hello world
 
@@ -31,7 +33,7 @@ http://localhost:8080/api/hellojson/get/put-a-name-here
 http://localhost:8080/api/hellojson/post
 
 
-- **deploy** it in gae
+## **deploy** it in gae
 
 1) create a new project in gae console
 
